@@ -1,0 +1,75 @@
+[
+    {
+        "index": "1",
+        "title": "2020 Grad Book",
+        "slug": "grad-book",
+        "component": "gradBook",
+        "titleVariant": "primary",
+        "src": "work1.jpg",
+        "tags": [
+            "Graphics Design",
+            "Print Design",
+            "Photography"
+        ]
+    },
+    {
+        "index": "2",
+        "title": "Nutshell",
+        "slug": "nutshell",
+        "component": "nutshell",
+        "titleVariant": "primary",
+        "src": "work2.jpg",
+        "tags": [
+            "Graphics Design",
+            "Print Design",
+            "Photography"
+        ]
+    },
+    {
+        "index": "3",
+        "title": "Teamer",
+        "slug": "teamer",
+        "component": "teamer",
+        "titleVariant": "primary",
+        "src": "work3.jpg",
+        "tags": [
+            "UI/UX Design",
+            "Branding Design",
+            "Front-End Dev"
+        ]
+    },
+    {
+        "index": "4",
+        "title": "Virtualscapes",
+        "slug": "virtualscapes",
+        "component": "virtualscapes",
+        "titleVariant": "primary",
+        "src": "work4.jpg",
+        "tags": [
+            "3D Rendering",
+            "Motion Design"
+        ]
+    },
+    {
+        "index": "5",
+        "title": "Human Light",
+        "slug": "human-light",
+        "component": "humanLight",
+        "titleVariant": "primary",
+        "src": "work5.jpg",
+        "tags": [
+            "Photography"
+        ]
+    },
+    {
+        "index": "6",
+        "title": "Apex",
+        "slug": "apex",
+        "component": "apex",
+        "titleVariant": "primary",
+        "src": "work6.jpg",
+        "tags": [
+            "Photography"
+        ]
+    }
+]
