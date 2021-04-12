@@ -29,7 +29,7 @@ function Projects(props) {
                                     </div>
                                 </div>
                             </div>
-                            <h4 className="project-text-mobile">{item.title}</h4>
+                            <h4 className="project-text-mobile" sx={{color: 'text'}}>{item.title}</h4>
                         </Link>
                     ))
                 }

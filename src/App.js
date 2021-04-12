@@ -5,9 +5,12 @@ import logo from './logo.png';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import { jsx, ThemeProvider } from 'theme-ui';
 import theme from './theme.js';
+import './App.css';
+
+import ColorModeButton from './components/ColorMode'
+
 import Projects from './Projects.js';
 import About from './About.js';
-import './App.css';
 
 import gradBook from './views/gradBook';
 import nutshell from './views/nutshell';
@@ -26,6 +29,7 @@ function App() {
             <div className="navigation-sub">
               <Link to="/" className="nav-item" sx={{ color: 'text' }}>Projects</Link>
               <Link to="/about" className="nav-item" sx={{ color: 'text' }}>About</Link>
+              <ColorModeButton/>
             </div>
           </div>
 
