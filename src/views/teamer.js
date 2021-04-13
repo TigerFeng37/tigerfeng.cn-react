@@ -10,7 +10,7 @@ function teamer(props) {
         <div className="work-wrapper">
             <div className="work-header">
                 <div className="work-header-text">
-                    <Link to="/" className="back-link" sx={{ color: 'secondary', marginLeft: '-.75em' }}>
+                    <Link to="/" className="back-link" sx={{ color: 'gray', marginLeft: '-.75em' }}>
                         <EntypoChevronLeft /><h4 sx={{ margin: 0, fontWeight: 400 }}>Back</h4>
                     </Link>
                     <h3 sx={{ marginTop: '2em' }}>Teamer</h3>

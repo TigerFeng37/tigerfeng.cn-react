@@ -1,11 +1,34 @@
+/** @jsxRuntime classic */
+/** @jsx jsx */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CustomCursor from 'custom-cursor-react';
+import { jsx, ThemeProvider } from 'theme-ui';
+import 'custom-cursor-react/dist/index.css';
+import theme from './theme.js';
 
 ReactDOM.render(
   <React.StrictMode>
+    <ThemeProvider theme={theme}>
+      <CustomCursor
+      targets={['a', 'button', 'svg']}
+      customClass='custom-cursor'
+      opacity={1}
+      targetScale={2}
+      fill='rgba(0,0,0,0)'
+      dimensions={10}
+      smoothness={{
+        movement: .425,
+        scale: .4,
+        opacity: .0025,
+      }}
+      targetOpacity={1}
+      >
+    </CustomCursor>
+    </ThemeProvider>
     <App />
   </React.StrictMode>,
   document.getElementById('root')

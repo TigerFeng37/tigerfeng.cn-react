@@ -27,7 +27,8 @@ const ColorModeButton = props => {
                     height: 40,
                     paddingTop: '.45em',
                     backgroundColor: 'muted',
-                    marginLeft: '1em'
+                    marginLeft: '1em',
+                    outlineWidth: '0px'
                 }}
             >
                 {

@@ -17,7 +17,7 @@ function Projects(props) {
                 {
                     work.map((item =>
                         <Link key={item.index} to={"/" + item.slug} className="project-image-wrapper">
-                            <div className="project-image" style={{backgroundImage: `url("/img/work/${item.src}")`}}>
+                            <div className="project-image" id={item.id} style={{backgroundImage: `url("/img/work/${item.src}")`}}>
                                 <div className="text-hover-wrapper">
                                     <div className="text-hover">
                                         <h3>{item.title}</h3>
