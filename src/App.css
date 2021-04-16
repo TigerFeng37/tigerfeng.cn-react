@@ -267,8 +267,12 @@
 }
 
 @media (hover: none) {
-    .project-text-mobile {
+  .project-text-mobile {
     display: flex;
     margin: -.5em 0 2em 0;
+  }
+
+  .text-hover-wrapper {
+    display: none;
   }
 }
