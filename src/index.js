@@ -23,9 +23,9 @@ ReactDOM.render(
       smoothness={{
         movement: .425,
         scale: .4,
-        opacity: .0025,
+        opacity: .05,
       }}
-      targetOpacity={1}
+      targetOpacity={0.25}
       >
     </CustomCursor>
     </ThemeProvider>
