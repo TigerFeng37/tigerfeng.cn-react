@@ -162,6 +162,11 @@
   background-position: 50% 85%;
 }
 
+#post-human {
+  background-position: 100% 0%;
+  background-color: #222;
+}
+
 .back-link {
   text-decoration: none;
   display: flex;
@@ -182,20 +187,6 @@
   border-radius: 2em;
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 @media only screen and (max-width: 87em) { 
   .project-wrapper {
     margin: 4em 0;
@@ -208,12 +199,16 @@
   .project-image {
     height: 20em;
   }
+  
+  .text-hover-wrapper {
+    height: 20em;
+  }
 
   .work-header-image {
     height: 30em;
   }
-
-  .work-body-image {
+  
+  .work-body-image{
     height: 30em;
   }
 
@@ -226,6 +221,7 @@
 @media only screen and (max-width: 56em) {
   .App {
     padding: 4em 1.5em;
+    overflow-x: hidden;
   }
 
   .nav-item {
@@ -236,7 +232,7 @@
     width: 100%;
   }
 
-  .project-image {
+  .project-image .text-hover-wrapper {
     height: 20em;
     width: 100%;
   }
@@ -258,6 +254,12 @@
 
   .work-body-image {
     min-width: 100%;
+    height: 20em;
+  }
+
+  .work-image-tile {
+    min-width: calc(100% - 2em) !important;
+    margin-right: 2em;
     height: 20em;
   }
 

@@ -77,5 +77,19 @@
         "tags": [
             "Photography"
         ]
+    },
+    {
+        "index": "7",
+        "title": "Post-Human H5",
+        "slug": "post-human",
+        "component": "postHuman",
+        "id": "post-human",
+        "titleVariant": "primary",
+        "src": "work7.png",
+        "tags": [
+            "Graphics Design",
+            "UI/UX Design",
+            "Front-End Dev"
+        ]
     }
 ]

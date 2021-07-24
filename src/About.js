@@ -9,7 +9,9 @@ function About(props) {
             <div className="about-wrapper">
                 <h1>Yicheng Feng</h1>
                 <div className="about-description">
-                    <p>Hey there! I am currently a student studying Communication Design at Parsons School of Design.
+                    <p>Hey there! I am currently a designer working at&nbsp;
+                        <a href="xacademy.cc" sx={{ textDecoration: 'underline', color: 'accent'}}>X Academy</a>
+                        , and a student studying Communication Design at Parsons School of Design.
                         <br />Proficient in UI/UX design, photography, cinematography, and post-production, along with some front-end development and 3D modeling experience.</p>
                 </div>
                 <div style={{ fontSize: '3em' }}>

@@ -25,7 +25,7 @@ ReactDOM.render(
         scale: .4,
         opacity: .05,
       }}
-      targetOpacity={0.25}
+      targetOpacity={0.250}
       >
     </CustomCursor>
     </ThemeProvider>

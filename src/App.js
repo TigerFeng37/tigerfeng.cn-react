@@ -2,10 +2,10 @@
 /** @jsx jsx */
 import React, { lazy, useEffect, useState } from 'react';
 import logo from './logo.png';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
 import { jsx, ThemeProvider } from 'theme-ui';
 import theme from './theme.js';
-import './App.css';
+import './App.scss';
 
 import ColorModeButton from './components/ColorMode'
 
@@ -22,7 +22,7 @@ import apex from './views/apex'
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <div className="App">
           <div className="navigation">
             <img src={logo} className="logo" alt="Logo" />
@@ -33,15 +33,17 @@ function App() {
             </div>
           </div>
 
-          <Route exact path="/" component={Projects} />
-          <Route path="/about" component={About} />
-          
-          <Route path="/grad-book" component={gradBook} />
-          <Route path="/nutshell" component={nutshell} />
-          <Route path="/teamer" component={teamer} />
-          <Route path="/virtualscapes" component={virtualscapes} />
-          <Route path="/human-light" component={humanLight} />
-          <Route path="/apex" component={apex} />
+          <Switch>
+            <Route exact path="/" component={Projects} />
+            <Route path="/about" component={About} />
+            
+            <Route path="/grad-book" component={gradBook} />
+            <Route path="/nutshell" component={nutshell} />
+            <Route path="/teamer" component={teamer} />
+            <Route path="/virtualscapes" component={virtualscapes} />
+            <Route path="/human-light" component={humanLight} />
+            <Route path="/apex" component={apex} />
+          </Switch>
         </div>
       </BrowserRouter>
     </ThemeProvider>
